@@ -8,7 +8,7 @@ import os
 # --- Configuración del Bot ---
 # Reemplaza con tu token REAL de bot de Discord
 # ¡Mantén este token en secreto!
-TOKEN = 'MTQwMDE5NzAxMDA2NTE5OTIyNw.G78Ogc.Y4rBxv0Fg_B3q6rMUZTbaQUBuBn_PTpx5zrfgs'
+TOKEN = TOKEN = os.getenv('DISCORD_BOT_TOKEN')
 
 # Define a dictionary with the paths to your overlay images.
 # The keys (e.g., 'common', 'epic') must be in lowercase,
